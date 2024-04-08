@@ -20,5 +20,4 @@ export function useFoodData(){
         ...query,
         data: query.data?.data
     }
-
 }
