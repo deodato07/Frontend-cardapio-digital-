@@ -1,10 +1,11 @@
-import"card.css"
+import "./card.css";
 
-interface CardProps{
+interface CardProps {
     price: number,
     title: string,
     image: string
 }
+
 export function Card({ price, image, title } : CardProps){
     return(
         <div className="card">
